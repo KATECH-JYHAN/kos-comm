@@ -1,0 +1,17 @@
+[package]
+name = "comm-core"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+authors = ["Jun-young Han <jyhan@katech.re.kr>"]
+repository = "https://github.com/KATECH-JYHAN/kos-comm"
+
+[features]
+default = []
+live_update = []
+ivshmem = []
+cache-line-32 = []
+cache-line-128 = []
+
+[dependencies]
+libc = "0.2"
